@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cis433group.qrhero.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SurfaceView
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="42dp"
+            android:layout_marginStart="42dp" />
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/camera"
+            android:layout_marginLeft="86dp"
+            android:layout_marginStart="86dp"
+            android:layout_toEndOf="@+id/camera"
+            android:layout_toRightOf="@+id/camera"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="310dp"
+            tools:layout_editor_absoluteY="316dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
