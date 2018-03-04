@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">QR Hero</string>
+    <string name="unshorten">Unshorten Link</string>
 </resources>
